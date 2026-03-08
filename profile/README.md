@@ -10,4 +10,4 @@ Building software with AI agents. Sharing what works and what doesn't.
 
 ## Videos
 
-[YouTube](https://youtube.com/@thellmwhisperer) · [LinkedIn](https://linkedin.com/in/javiermellado)
+[YouTube](https://youtube.com/@thellmwhisperer) · [LinkedIn](https://www.linkedin.com/in/javier-mellado-10545ba/)
