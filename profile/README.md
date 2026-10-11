@@ -24,7 +24,9 @@ Blocking slop gate for AI-assisted repos: duplication detector, tombstones, ceil
 **🎯 [quick-fire](https://github.com/thellmwhisperer/quick-fire)**  
 Keep your agent focused, not rambling.
 
-## Applied AI
+## Applied AI: natural language to structured systems
+
+Three projects, one pattern: plain language in, a validated structured result out.
 
 **🎥 [conferenceDB](https://github.com/thellmwhisperer/conferenceDB)**  
 Agent-native RAG over conference talks. Hybrid retrieval over SQLite FTS5 full-text search and sqlite-vec vector embeddings, fully local. Turns video transcripts into a queryable knowledge base.
