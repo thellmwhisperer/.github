@@ -9,8 +9,8 @@ Agentic engineer in Edinburgh, 21 years writing code. These days I spend less ti
 **🪨 [La Roca](https://github.com/thellmwhisperer/la-roca)**  
 Local semantic memory for agent fleets. One Go binary, one SQLite file, zero dependencies: it ingests every session your agents leave on the machine (Claude, Codex, Pi, OpenCode, Hermes, even your claude.ai export) and answers natural-language questions about it, with per-answer provenance: which model said it, how much it thought, what it cost. Agents plug in over MCP and stop starting from zero. No login: it reuses the agent CLIs already installed. Private by construction; nothing leaves your machine.
 
-**🤖 [combo-chen](https://github.com/thellmwhisperer/combo-chen)**  
-Deterministic harness for autonomous issue-to-PR pipelines. An event-sourced state machine drives fixed roles (coder, gatekeeper, reviewer) with strict role separation, SHA-pinned review gates, CI reconciliation, and a human-in-the-loop merge. Built on git worktrees and tmux.
+**🧪 [ATM, Agentic Team Member](https://github.com/thellmwhisperer/agentic-team-member)**
+A deterministic graph loop with the LLM embedded as one node, not a long-horizon agent. Give it an issue: a coding agent you already pay for (Claude Code, Codex, OpenCode, pi) writes the fix inside an isolated clone under a written contract, and code decides every edge: red/green proof, the repository's own checks, a slop detector that may only cut, then the delivery and code review gate. One Go binary; it maintains itself through its own runs.
 
 **☁️ [roca-cloud](https://github.com/thellmwhisperer/roca-cloud)**  
 MCP-native memory store deployed on AWS as a single ARM64 Lambda behind API Gateway, backed by private RDS PostgreSQL and Secrets Manager, provisioned end-to-end with CDK. Roca Cloud is its own durable memory plane: Bedrock and AgentCore workloads run around it, as agents, distillers, runners, and observability pipelines, all reading from and writing to the same shared memory.
